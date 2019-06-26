@@ -3,16 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		33ABE057A4BC99C386055915 /* Pods_Picturama.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABEEFD1DF3255396D36801C /* Pods_Picturama.framework */; };
+		981ABB5222A3B4DF00FA03F7 /* UIColor+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ABB5122A3B4DF00FA03F7 /* UIColor+Utilities.swift */; };
+		981ABB5422A3B6AB00FA03F7 /* ListPictureViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ABB5322A3B6AB00FA03F7 /* ListPictureViewModel.swift */; };
+		981ABB5622A3B99D00FA03F7 /* Picture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ABB5522A3B99D00FA03F7 /* Picture.swift */; };
+		981ABB5822A3BD7F00FA03F7 /* Collection+Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ABB5722A3BD7F00FA03F7 /* Collection+Utilities.swift */; };
+		981ABB5B22A3BDB900FA03F7 /* PictureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ABB5A22A3BDB900FA03F7 /* PictureService.swift */; };
+		981ABB5D22A3BFE000FA03F7 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981ABB5C22A3BFE000FA03F7 /* APIRequest.swift */; };
+		982036BD22C212A600FC68AA /* PictureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982036BB22C212A600FC68AA /* PictureTableViewCell.swift */; };
+		982036BE22C212A600FC68AA /* PictureTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 982036BC22C212A600FC68AA /* PictureTableViewCell.xib */; };
 		9840175222A27E76009BF314 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9840175122A27E76009BF314 /* AppDelegate.swift */; };
-		9840175422A27E76009BF314 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9840175322A27E76009BF314 /* ViewController.swift */; };
 		9840175722A27E76009BF314 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9840175522A27E76009BF314 /* Main.storyboard */; };
 		9840175922A27E77009BF314 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9840175822A27E77009BF314 /* Assets.xcassets */; };
 		9840175C22A27E77009BF314 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9840175A22A27E77009BF314 /* LaunchScreen.storyboard */; };
 		9840176722A27E77009BF314 /* PicturamaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9840176622A27E77009BF314 /* PicturamaTests.swift */; };
+		98A1713622A377A1007E01DD /* TabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1713522A377A1007E01DD /* TabbarController.swift */; };
+		98A1713822A377BA007E01DD /* TabbarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1713722A377BA007E01DD /* TabbarViewModel.swift */; };
+		98A1713C22A384DE007E01DD /* ListVideosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1713A22A384DD007E01DD /* ListVideosViewController.swift */; };
+		98A1713D22A384DE007E01DD /* ListVideosViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98A1713B22A384DD007E01DD /* ListVideosViewController.xib */; };
+		98A1714122A38562007E01DD /* SavedContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1713F22A38562007E01DD /* SavedContentViewController.swift */; };
+		98A1714222A38562007E01DD /* SavedContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98A1714022A38562007E01DD /* SavedContentViewController.xib */; };
+		98A1714522A38CE5007E01DD /* ListPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A1714322A38CE5007E01DD /* ListPictureViewController.swift */; };
+		98A1714622A38CE5007E01DD /* ListPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98A1714422A38CE5007E01DD /* ListPictureViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D7214C4613790ED6C74EB71 /* Pods-Picturama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Picturama.debug.xcconfig"; path = "Target Support Files/Pods-Picturama/Pods-Picturama.debug.xcconfig"; sourceTree = "<group>"; };
+		5602CBB43E3D535DDE6D89E0 /* Pods-Picturama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Picturama.release.xcconfig"; path = "Target Support Files/Pods-Picturama/Pods-Picturama.release.xcconfig"; sourceTree = "<group>"; };
+		6ABEEFD1DF3255396D36801C /* Pods_Picturama.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Picturama.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		981ABB5122A3B4DF00FA03F7 /* UIColor+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Utilities.swift"; sourceTree = "<group>"; };
+		981ABB5322A3B6AB00FA03F7 /* ListPictureViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPictureViewModel.swift; sourceTree = "<group>"; };
+		981ABB5522A3B99D00FA03F7 /* Picture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picture.swift; sourceTree = "<group>"; };
+		981ABB5722A3BD7F00FA03F7 /* Collection+Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Utilities.swift"; sourceTree = "<group>"; };
+		981ABB5A22A3BDB900FA03F7 /* PictureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureService.swift; sourceTree = "<group>"; };
+		981ABB5C22A3BFE000FA03F7 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		982036BB22C212A600FC68AA /* PictureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureTableViewCell.swift; sourceTree = "<group>"; };
+		982036BC22C212A600FC68AA /* PictureTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PictureTableViewCell.xib; sourceTree = "<group>"; };
 		9840174E22A27E76009BF314 /* Picturama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picturama.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9840175122A27E76009BF314 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9840175322A27E76009BF314 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9840175622A27E76009BF314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9840175822A27E77009BF314 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9840175B22A27E77009BF314 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +62,14 @@
 		9840176222A27E77009BF314 /* PicturamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicturamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9840176622A27E77009BF314 /* PicturamaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturamaTests.swift; sourceTree = "<group>"; };
 		9840176822A27E77009BF314 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		98A1713522A377A1007E01DD /* TabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarController.swift; sourceTree = "<group>"; };
+		98A1713722A377BA007E01DD /* TabbarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewModel.swift; sourceTree = "<group>"; };
+		98A1713A22A384DD007E01DD /* ListVideosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVideosViewController.swift; sourceTree = "<group>"; };
+		98A1713B22A384DD007E01DD /* ListVideosViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListVideosViewController.xib; sourceTree = "<group>"; };
+		98A1713F22A38562007E01DD /* SavedContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedContentViewController.swift; sourceTree = "<group>"; };
+		98A1714022A38562007E01DD /* SavedContentViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SavedContentViewController.xib; sourceTree = "<group>"; };
+		98A1714322A38CE5007E01DD /* ListPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPictureViewController.swift; sourceTree = "<group>"; };
+		98A1714422A38CE5007E01DD /* ListPictureViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ListPictureViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33ABE057A4BC99C386055915 /* Pods_Picturama.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,12 +91,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80222D536326E592C7D19375 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ABEEFD1DF3255396D36801C /* Pods_Picturama.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85B0955AD2A24C9C64610581 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D7214C4613790ED6C74EB71 /* Pods-Picturama.debug.xcconfig */,
+				5602CBB43E3D535DDE6D89E0 /* Pods-Picturama.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		981ABB5022A3B3A600FA03F7 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				981ABB5122A3B4DF00FA03F7 /* UIColor+Utilities.swift */,
+				981ABB5722A3BD7F00FA03F7 /* Collection+Utilities.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		981ABB5922A3BD9E00FA03F7 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				981ABB5A22A3BDB900FA03F7 /* PictureService.swift */,
+				981ABB5C22A3BFE000FA03F7 /* APIRequest.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		982036BA22C2125000FC68AA /* Customs */ = {
+			isa = PBXGroup;
+			children = (
+				982036BB22C212A600FC68AA /* PictureTableViewCell.swift */,
+				982036BC22C212A600FC68AA /* PictureTableViewCell.xib */,
+			);
+			path = Customs;
+			sourceTree = "<group>";
+		};
 		9840174522A27E76009BF314 = {
 			isa = PBXGroup;
 			children = (
 				9840175022A27E76009BF314 /* Picturama */,
 				9840176522A27E77009BF314 /* PicturamaTests */,
 				9840174F22A27E76009BF314 /* Products */,
+				85B0955AD2A24C9C64610581 /* Pods */,
+				80222D536326E592C7D19375 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +158,12 @@
 		9840175022A27E76009BF314 /* Picturama */ = {
 			isa = PBXGroup;
 			children = (
-				9840175122A27E76009BF314 /* AppDelegate.swift */,
-				9840175322A27E76009BF314 /* ViewController.swift */,
-				9840175522A27E76009BF314 /* Main.storyboard */,
-				9840175822A27E77009BF314 /* Assets.xcassets */,
-				9840175A22A27E77009BF314 /* LaunchScreen.storyboard */,
-				9840175D22A27E77009BF314 /* Info.plist */,
+				98A1712F22A3710F007E01DD /* Vendors */,
+				98A1712E22A37105007E01DD /* Resources */,
+				98A1712D22A370F8007E01DD /* Models */,
+				98A1712C22A370F0007E01DD /* Library */,
+				98A1712B22A370C3007E01DD /* Controllers */,
+				98A1712A22A370B6007E01DD /* Application */,
 			);
 			path = Picturama;
 			sourceTree = "<group>";
@@ -96,6 +177,122 @@
 			path = PicturamaTests;
 			sourceTree = "<group>";
 		};
+		98A1712A22A370B6007E01DD /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9840175D22A27E77009BF314 /* Info.plist */,
+				9840175522A27E76009BF314 /* Main.storyboard */,
+				9840175A22A27E77009BF314 /* LaunchScreen.storyboard */,
+				9840175122A27E76009BF314 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		98A1712B22A370C3007E01DD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				98A1713E22A38541007E01DD /* Saved Content */,
+				98A1713922A384BC007E01DD /* List Videos */,
+				98A1713422A37766007E01DD /* Tabbar */,
+				98A1713222A374EB007E01DD /* Search Picture */,
+				98A1713122A374DD007E01DD /* Detail Picture */,
+				98A1713022A374D2007E01DD /* List Pictures */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		98A1712C22A370F0007E01DD /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				982036BA22C2125000FC68AA /* Customs */,
+				981ABB5922A3BD9E00FA03F7 /* Services */,
+				981ABB5022A3B3A600FA03F7 /* Helper */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		98A1712D22A370F8007E01DD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				981ABB5522A3B99D00FA03F7 /* Picture.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		98A1712E22A37105007E01DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				98A1713322A3754B007E01DD /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		98A1712F22A3710F007E01DD /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		98A1713022A374D2007E01DD /* List Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				98A1714322A38CE5007E01DD /* ListPictureViewController.swift */,
+				98A1714422A38CE5007E01DD /* ListPictureViewController.xib */,
+				981ABB5322A3B6AB00FA03F7 /* ListPictureViewModel.swift */,
+			);
+			path = "List Pictures";
+			sourceTree = "<group>";
+		};
+		98A1713122A374DD007E01DD /* Detail Picture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Detail Picture";
+			sourceTree = "<group>";
+		};
+		98A1713222A374EB007E01DD /* Search Picture */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Search Picture";
+			sourceTree = "<group>";
+		};
+		98A1713322A3754B007E01DD /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				9840175822A27E77009BF314 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		98A1713422A37766007E01DD /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				98A1713522A377A1007E01DD /* TabbarController.swift */,
+				98A1713722A377BA007E01DD /* TabbarViewModel.swift */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		98A1713922A384BC007E01DD /* List Videos */ = {
+			isa = PBXGroup;
+			children = (
+				98A1713A22A384DD007E01DD /* ListVideosViewController.swift */,
+				98A1713B22A384DD007E01DD /* ListVideosViewController.xib */,
+			);
+			path = "List Videos";
+			sourceTree = "<group>";
+		};
+		98A1713E22A38541007E01DD /* Saved Content */ = {
+			isa = PBXGroup;
+			children = (
+				98A1713F22A38562007E01DD /* SavedContentViewController.swift */,
+				98A1714022A38562007E01DD /* SavedContentViewController.xib */,
+			);
+			path = "Saved Content";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9840176B22A27E77009BF314 /* Build configuration list for PBXNativeTarget "Picturama" */;
 			buildPhases = (
+				C50064FF01EB723788A7BBE0 /* [CP] Check Pods Manifest.lock */,
 				9840174A22A27E76009BF314 /* Sources */,
 				9840174B22A27E76009BF314 /* Frameworks */,
 				9840174C22A27E76009BF314 /* Resources */,
+				99414D9017F86D2ACFC182C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -177,8 +376,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				982036BE22C212A600FC68AA /* PictureTableViewCell.xib in Resources */,
 				9840175C22A27E77009BF314 /* LaunchScreen.storyboard in Resources */,
 				9840175922A27E77009BF314 /* Assets.xcassets in Resources */,
+				98A1713D22A384DE007E01DD /* ListVideosViewController.xib in Resources */,
+				98A1714622A38CE5007E01DD /* ListPictureViewController.xib in Resources */,
+				98A1714222A38562007E01DD /* SavedContentViewController.xib in Resources */,
 				9840175722A27E76009BF314 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -192,12 +395,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		99414D9017F86D2ACFC182C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Picturama/Pods-Picturama-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Picturama/Pods-Picturama-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Picturama/Pods-Picturama-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C50064FF01EB723788A7BBE0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Picturama-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9840174A22A27E76009BF314 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9840175422A27E76009BF314 /* ViewController.swift in Sources */,
+				981ABB5622A3B99D00FA03F7 /* Picture.swift in Sources */,
+				98A1714122A38562007E01DD /* SavedContentViewController.swift in Sources */,
+				981ABB5422A3B6AB00FA03F7 /* ListPictureViewModel.swift in Sources */,
+				98A1713822A377BA007E01DD /* TabbarViewModel.swift in Sources */,
+				98A1713C22A384DE007E01DD /* ListVideosViewController.swift in Sources */,
+				98A1714522A38CE5007E01DD /* ListPictureViewController.swift in Sources */,
+				982036BD22C212A600FC68AA /* PictureTableViewCell.swift in Sources */,
+				981ABB5222A3B4DF00FA03F7 /* UIColor+Utilities.swift in Sources */,
+				981ABB5B22A3BDB900FA03F7 /* PictureService.swift in Sources */,
+				98A1713622A377A1007E01DD /* TabbarController.swift in Sources */,
+				981ABB5822A3BD7F00FA03F7 /* Collection+Utilities.swift in Sources */,
+				981ABB5D22A3BFE000FA03F7 /* APIRequest.swift in Sources */,
 				9840175222A27E76009BF314 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -358,11 +614,12 @@
 		};
 		9840176C22A27E77009BF314 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7214C4613790ED6C74EB71 /* Pods-Picturama.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9RATDMPNG;
-				INFOPLIST_FILE = Picturama/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Picturama/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,11 +633,12 @@
 		};
 		9840176D22A27E77009BF314 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5602CBB43E3D535DDE6D89E0 /* Pods-Picturama.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9RATDMPNG;
-				INFOPLIST_FILE = Picturama/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Picturama/Application/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
